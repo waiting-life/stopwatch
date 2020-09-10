@@ -1,0 +1,28 @@
+.outer {
+    width: 500px;
+    height: 400px;
+    background: pink;
+    position: relative;
+}
+
+.clock {
+    font-size:20px;
+    font-family: sans-serif;
+    padding: 20px 40px;
+    background: purple;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.inner {
+    bottom: 10px;
+    position: absolute;
+    left: 100px;
+}
+
+.inner button {
+    background: purple;
+    width: 100px;
+    height: 40px;
+    font: 16px;
+}
